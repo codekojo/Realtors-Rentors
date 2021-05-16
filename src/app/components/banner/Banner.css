@@ -1,0 +1,129 @@
+/*  dark #242325
+  green 61e786
+white #fff
+grey #eee */
+
+.property-name {
+  color: #61e786;
+  font-family: "Caveat", cursive;
+  font-size: 3.5rem;
+}
+
+.location,
+.description,
+.property-type {
+  color: #242325;
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.1rem;
+}
+.property-type {
+  font-size: 3rem;
+}
+.banner-info {
+  min-height: calc(100vh - 66px);
+  background: #eee;
+  position: relative;
+  text-align: left;
+}
+
+.banner-info__footer {
+  background: #61e786;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.book__btn {
+  border: 0.1rem solid #61e786 !important;
+  border-radius: 0.2rem;
+  color: #61e786;
+  text-transform: capitalize;
+  transition: all 0.5s ease-in;
+}
+
+.book__btn:hover {
+  background-color: #61e786;
+  color: white;
+  text-decoration: none;
+}
+
+.banner-img {
+  min-height: calc(100vh - 66px);
+  background-image: url("../../assets/img/bannerBcg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.banner-img__footer {
+  background-color: #242325;
+  color: white;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease-in-out;
+  border-top-right-radius: 5px;
+}
+
+.rent {
+  color: #61e786;
+  font-family: "Caveat", cursive;
+  font-size: 1.9rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin: 0;
+}
+
+.amt {
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.banner-img__footer:hover {
+  background: #575757;
+  transform: scale(0.9);
+  border-radius: 5px;
+}
+
+.icon1 {
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.icon2 {
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+}
+@media (max-width: 576px) {
+  .property-name {
+    font-size: 2.5rem;
+  }
+  .property-type {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 360px) {
+  .property-name {
+    font-size: 1.5rem;
+  }
+  .property-type {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 280px) {
+  .location,
+  .description,
+  .property-type {
+    font-size: 1rem;
+  }
+}

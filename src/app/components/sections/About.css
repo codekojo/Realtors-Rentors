@@ -1,0 +1,224 @@
+.title-underline {
+  width: 12rem;
+  height: 0.3rem;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 2rem;
+}
+
+.title-underline-center {
+  position: absolute;
+  height: 0.6rem;
+  background-color: #61e786;
+  width: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.blockquote {
+  border-left: 0.3rem solid #61e786;
+}
+
+.title-prop {
+  color: #61e786;
+  font-family: "Caveat", cursive;
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.about {
+  font-family: "Caveat", cursive;
+  font-size: 3rem;
+  text-transform: capialize;
+}
+
+.desc {
+  color: #242325;
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.1rem;
+}
+
+.book-now {
+  font-family: "Caveat", cursive;
+  font-size: 3rem;
+  text-transform: capialize;
+  color: red;
+}
+
+.block-title {
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+}
+
+.ld-text {
+  font-family: "Source Code Pro", monospace;
+}
+
+.book__btn {
+  border: 0.1rem solid #61e786 !important;
+  border-radius: 0.2rem;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+  color: #242325;
+  text-transform: capitalize;
+  transition: all 0.5s ease-in;
+}
+
+.book__btn:hover {
+  background-color: #61e786;
+  color: white;
+  text-decoration: none;
+}
+
+.p-name,
+.p-street {
+  font-family: "Source Code Pro", monospace;
+}
+.p-name {
+  font-weight: bold;
+}
+
+.contact {
+  background-color: #61e786;
+  color: #fff;
+  font-family: "Source Code Pro", monospace;
+}
+
+.ft-mm {
+  display: flex;
+  align-items: baseline;
+}
+
+.services {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../../assets/img/bannerBcg.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.services-info-text {
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #61e786;
+  padding: 1rem;
+  text-decoration: none !important;
+}
+.services-info-text:hover {
+  color: white;
+}
+
+.services-icon {
+  font-size: 2rem;
+  color: #61e786;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  transition: all 1s ease-in-out;
+}
+.services-icon:hover {
+  background-color: #61e786;
+  color: #eee;
+}
+
+.about-title {
+  font-family: "Caveat", cursive;
+  font-size: 2rem;
+}
+
+.gallery-img-container {
+  position: relative;
+  transition: all 1s linear;
+  overflow: hidden;
+}
+.gallery-img-container:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+.gallery-img {
+  transition: all 1s linear;
+}
+
+.gallery-img-container:hover .gallery-img {
+  opacity: 0.3;
+}
+
+.gallery-info {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  background: #61e786;
+  padding: 0.5rem;
+  text-decoration: none !important;
+}
+
+.gallery-icon {
+  position: absolute;
+  color: white;
+  top: 30%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, 50%);
+  opacity: 0;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.gallery-img-container:hover .gallery-info {
+  transform: translate(-50%, 0);
+}
+.gallery-img-container:hover .gallery-icon {
+  opacity: 1;
+}
+
+.tour {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../../assets/img/bannerBcg.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.footer {
+  background-color: #242325;
+}
+
+.link {
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white !important;
+}
+.links {
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white !important;
+
+  border: 0.1rem solid #61e786 !important;
+  border-radius: 0.2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  transition: all 0.5s ease-in;
+}
+
+.links:hover {
+  background-color: #61e786;
+  color: white;
+  text-decoration: none;
+}
