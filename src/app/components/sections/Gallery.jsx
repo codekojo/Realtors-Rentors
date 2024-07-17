@@ -19,8 +19,10 @@ function Gallery() {
               <div className="title-underline-center"></div>
             </div>
             <p className="w-75 mx-auto desc text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
-              itaque.
+              Explore our property gallery showcasing various living spaces and
+              interior designs. Whether you're looking for a cozy living room, a
+              functional kitchen, or a spacious bedroom, we have options to suit
+              your lifestyle.
             </p>
           </div>
         </div>

@@ -23,8 +23,11 @@ function Services() {
                   <div className="title-underline-center"></div>
                 </div>
                 <p className="w-75 mx-auto desc text-white">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Porro, itaque.
+                  At Santa Monica Bay Property, we offer a range of premium
+                  services tailored to enhance your living experience. Whether
+                  you're looking for a modern apartment, luxurious amenities, or
+                  pet-friendly spaces, we ensure every detail meets your
+                  expectations.
                 </p>
               </div>
             </div>

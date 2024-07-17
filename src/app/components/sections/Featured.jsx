@@ -1,6 +1,6 @@
 import React from "react";
 import "./Featured.css";
-import FeaturedComponentss from "../common/FeaturedComponent";
+import FeaturedComponent from "../common/FeaturedComponent";
 
 function Featured() {
   return (
@@ -8,17 +8,17 @@ function Featured() {
       <div className="container">
         <div className="row">
           <div className="col-12 text-center mb-3">
-            <h3 className="title-prop">renters realtors</h3>
-            <h1 className="about text-capitalize">Featured properties</h1>
+            <h3 className="title-prop">Renters Realtors</h3>
+            <h1 className="about text-capitalize">Featured Properties</h1>
             <div className="title-underline my-3 bg-secondary">
               <div className="title-underline-center"></div>
             </div>
             <p className="w-75 mx-auto desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
-              itaque.
+              Explore our selection of featured properties that offer the best
+              in modern living and convenience.
             </p>
           </div>
-          <FeaturedComponentss />
+          <FeaturedComponent />
         </div>
       </div>
     </section>
